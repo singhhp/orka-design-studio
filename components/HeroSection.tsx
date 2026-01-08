@@ -16,7 +16,7 @@ export default function HeroSection() {
                 />
             </div>
 
-            <div className="relative z-20 max-w-[1200px] mx-auto px-6 text-center flex flex-col items-center gap-8">
+            <div className="relative z-20 max-w-[1200px] mx-auto px-6 text-center flex flex-col items-center gap-8 -mt-16">
                 <span className="inline-block py-1 px-4 rounded-full border border-white/20 bg-white/5 backdrop-blur-sm text-primary text-xs uppercase tracking-[0.2em] font-medium">
                     Established 2024
                 </span>

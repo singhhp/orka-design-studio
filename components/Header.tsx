@@ -22,26 +22,16 @@ export default function Header() {
         <>
             <nav className="fixed top-0 left-0 right-0 z-50 px-6 py-4 transition-all duration-300">
                 <div className="max-w-[1400px] mx-auto flex items-center justify-between">
-                    <Link href="/" className="flex items-center gap-8 group">
-                        <div className="relative size-20 md:size-28 transition-transform duration-300 group-hover:scale-105">
+                    <Link href="/" className="group">
+                        <div className={`relative transition-all duration-500 ease-in-out ${scrolled
+                            ? "h-0 w-0 opacity-0 -translate-y-4 pointer-events-none scale-0"
+                            : "w-36 h-14 md:w-48 md:h-18 opacity-100 scale-100"
+                            }`}>
                             <Image
-                                src="/assets/odslg.png"
-                                alt="Orka Studio Logo"
-                                fill
-                                className="object-contain"
-                            />
-                        </div>
-                        <div
-                            className={`relative h-12 w-48 md:h-16 md:w-64 hidden md:block transition-all duration-500 ease-in-out origin-left ${scrolled
-                                ? "opacity-0 -translate-y-8 pointer-events-none w-0 scale-90"
-                                : "opacity-100 translate-y-0 w-48 md:w-64 scale-100"
-                                }`}
-                        >
-                            <Image
-                                src="/assets/name.png"
+                                src="/assets/g4.png"
                                 alt="Orka Studio"
                                 fill
-                                className="object-contain object-left"
+                                className="object-contain"
                             />
                         </div>
                     </Link>

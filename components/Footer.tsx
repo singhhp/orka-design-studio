@@ -7,19 +7,11 @@ export default function Footer() {
             <div className="max-w-[1400px] mx-auto">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-20">
                     <div className="col-span-1 md:col-span-2">
-                        <div className="flex items-center gap-3 mb-6">
-                            <div className="relative size-20">
+                        <div className="mb-6">
+                            <div className="relative w-40 h-16 md:w-52 md:h-20">
                                 <Image
-                                    src="/assets/odslg.png"
-                                    alt="Orka Studio Logo"
-                                    fill
-                                    className="object-contain"
-                                />
-                            </div>
-                            <div className="relative h-14 w-56">
-                                <Image
-                                    src="/assets/name.png"
-                                    alt="Orka Design Studio"
+                                    src="/assets/g4.png"
+                                    alt="Orka Studio"
                                     fill
                                     className="object-contain object-left"
                                 />

@@ -91,7 +91,7 @@ export default function Home() {
                                 <span className="text-4xl md:text-5xl font-bold text-primary mb-2">
                                     12
                                 </span>
-                                <span className="text-sm text-slate-500 uppercase tracking-widest">
+                                <span className="text-sm text-text-muted uppercase tracking-widest">
                                     Design Awards
                                 </span>
                             </div>
@@ -99,7 +99,7 @@ export default function Home() {
                                 <span className="text-4xl md:text-5xl font-bold text-primary mb-2">
                                     100%
                                 </span>
-                                <span className="text-sm text-slate-500 uppercase tracking-widest">
+                                <span className="text-sm text-text-muted uppercase tracking-widest">
                                     Client Satisfaction
                                 </span>
                             </div>

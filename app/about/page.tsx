@@ -16,12 +16,12 @@ export default function AboutPage() {
                         <div className="absolute inset-0 bg-black/40" />
                         <Image
                             alt="Modern concrete architectural structure with vines and sunlight"
-                            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbWdSa7Hsn1rloYJS48RH1A5J2rtJBudlPlPrWTZvX5S7fXRZ0ZOK42Lk4MbFYtiprYI3v8As_M7_tgTELbX9mRi3FY12wmd5snyRcXXIfd9h20AyXvItULmD_lryBf761yD7aK1_IPnijdUQaGnceQkOMvoNDyePM-K0IqJ55fMw16hs7QphqP8MTvLN3ChdAf-XEI9y8ek5erj07xW7TpBaK1zTjR_4zw79Zt4hQRIa2jnLAy5thJxB6Gf4K7KuPDXlBGfQ816I"
+                            src="/assets/studioHero.jpg"
                             fill
                             className="object-cover"
                         />
                     </div>
-                    <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl pt-20">
+                    <div className="relative z-10 container mx-auto px-6 text-center max-w-4xl -mt-12">
                         <span className="inline-block py-1 px-3 rounded-full border border-primary/30 bg-primary/10 text-primary text-xs font-bold uppercase tracking-widest mb-6 backdrop-blur-sm">
                             Est. 2014
                         </span>
@@ -64,7 +64,7 @@ export default function AboutPage() {
                                     firms that treat disciplines as silos, we view a project as a
                                     single, living organism.
                                 </p>
-                                <p className="text-gray-400 text-base leading-relaxed">
+                                <p className="text-primary text-base leading-relaxed">
                                     From the structural spine to the softest interior texture,
                                     every detail is considered in unison. We don&apos;t just build
                                     walls; we choreograph light, air, and movement to elevate the
@@ -147,10 +147,10 @@ export default function AboutPage() {
                 <section className="py-20 bg-[#121212]">
                     <div className="container mx-auto px-6 max-w-7xl">
                         <div className="text-center max-w-3xl mx-auto mb-16">
-                            <h2 className="text-3xl md:text-5xl font-serif font-bold text-secondary-text mb-6">
+                            <h2 className="text-3xl md:text-5xl font-serif font-bold text-brand-beige mb-6">
                                 Blending Disciplines
                             </h2>
-                            <p className="text-secondary-text text-lg">
+                            <p className="text-brand-beige text-lg">
                                 From concept to completion, our expertise spans across four
                                 distinct pillars designed to work in harmony.
                             </p>
@@ -265,19 +265,19 @@ export default function AboutPage() {
                             Recognized Excellence
                         </p>
                         <div className="flex flex-wrap justify-center gap-12 md:gap-24 opacity-60 grayscale hover:grayscale-0 transition-all duration-500">
-                            <h3 className="text-2xl font-serif font-bold text-secondary-text">
+                            <h3 className="text-2xl font-serif font-bold text-brand-beige">
                                 ArchDaily
                             </h3>
-                            <h3 className="text-2xl font-serif font-bold text-secondary-text">
+                            <h3 className="text-2xl font-serif font-bold text-brand-beige">
                                 Dezeen
                             </h3>
-                            <h3 className="text-2xl font-serif font-bold text-secondary-text">
+                            <h3 className="text-2xl font-serif font-bold text-brand-beige">
                                 AD100
                             </h3>
-                            <h3 className="text-2xl font-serif font-bold text-secondary-text">
+                            <h3 className="text-2xl font-serif font-bold text-brand-beige">
                                 Elle Decor
                             </h3>
-                            <h3 className="text-2xl font-serif font-bold text-secondary-text">
+                            <h3 className="text-2xl font-serif font-bold text-brand-beige">
                                 A+Awards
                             </h3>
                         </div>

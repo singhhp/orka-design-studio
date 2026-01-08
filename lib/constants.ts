@@ -140,7 +140,7 @@ export const allProjects: Project[] = [
 export const teamMembers: TeamMember[] = [
     {
         id: "srishti-singh",
-        name: "Srishti Singh",
+        name: "Ar. Srishti Singh",
         role: "Principal Architect",
         image: "/assets/srishti.PNG",
         quote: "Design is intelligence made visible.",

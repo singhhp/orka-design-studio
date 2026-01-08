@@ -19,7 +19,7 @@ export default function ProjectsPage() {
     return (
         <>
             <Header />
-            <main className="flex-grow w-full px-6 md:px-12 lg:px-20 py-12 md:py-20 max-w-[1600px] mx-auto min-h-screen">
+            <main className="flex-grow w-full px-6 md:px-12 lg:px-20 pt-32 pb-12 md:pt-48 md:pb-20 max-w-[1600px] mx-auto min-h-screen">
                 <div className="mb-16 md:mb-24 max-w-4xl">
                     <h1 className="text-5xl md:text-7xl font-semibold leading-tight tracking-tight mb-6 text-secondary-text">
                         Curated Spaces
