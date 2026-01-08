@@ -27,6 +27,9 @@ const notoSans = Noto_Sans({
 export const metadata: Metadata = {
     title: "Orka Design Studio - Architecture & Interiors",
     description: "Architecture, interiors, and landscapes crafted for eternity. We blend nature with structure to create timeless environments.",
+    icons: {
+        icon: "/assets/favico.png",
+    },
 };
 
 export default function RootLayout({
